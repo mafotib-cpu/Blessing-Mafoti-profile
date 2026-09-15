@@ -32,9 +32,9 @@ The AI prompt, raw AI output, final edited version and reflection are available 
 
 During the peer review, I checked the website for accessibility issues, including image alternative text, form labels and colour readability.
 
-**Issue found:** [The text on the African background image was difficult to read because the background image was too bright.]
+**Issue found:** The text on the African background image was difficult to read because the background image was too bright.
 
-**Fix:** [I added a dark overlay using a CSS linear-gradient() so that the white text has better contrast and is easier to read.]
+**Fix:** I added a dark overlay using a CSS linear-gradient() so that the white text has better contrast and is easier to read.
 
 ## Author
 
