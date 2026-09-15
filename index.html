@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Personal profile and mini-portfolio of Blessing Mafoti, a Computer Information Systems student.">
+
+    <title>Blessing Mafoti | Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+    <img src="images/profile.jpg" alt="Profile picture of Blessing Mafoti">
+
+    <h1>Blessing Mafoti</h1>
+
+    <p>Computer Information Systems Student | Tech Entrepreneur</p>
+
+</header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am a Computer Information Systems student interested in
+                technology, web development and information systems. I enjoy
+                learning how technology can be used to solve problems and
+                improve people's everyday lives.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills and Interests</h2>
+
+            <article>
+                <h3>Web Development</h3>
+
+                <p>
+                    I am learning how to create websites using HTML, CSS
+                    and other web technologies.
+                </p>
+            </article>
+
+            <article>
+                <h3>Information Systems</h3>
+
+                <p>
+                    I am interested in information systems and how technology
+                    can help organisations work more effectively.
+                </p>
+            </article>
+
+            <article>
+                <h3>Technology</h3>
+
+                <p>
+                    I enjoy learning about new technologies and developing
+                    practical computer skills.
+                </p>
+            </article>
+
+        </section>
+
+        <section id="contact">
+    <h2>Contact Me</h2>
+
+    <p>
+        If you would like to get in touch with me, please complete
+        the contact form below.
+    </p>
+
+    <form action="#" method="post">
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"
+               pattern="[0-9]{10}"
+               placeholder="0771234567"
+               required>
+
+        <br><br>
+
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="message"
+                  rows="5"
+                  minlength="10"
+                  required></textarea>
+
+        <br><br>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+</section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Blessing Mafoti. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

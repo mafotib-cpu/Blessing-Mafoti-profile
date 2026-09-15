@@ -1,0 +1,158 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4ead5;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header with African background */
+header {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url("images/african-background.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Profile picture */
+header img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #d4a017;
+}
+
+/* Main name */
+header h1 {
+    margin: 15px 0 5px;
+    font-size: 40px;
+}
+
+/* Tagline */
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    background-color: #5b2c06;
+    text-align: center;
+    padding: 16px;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+/* Navigation hover effect */
+nav a:hover {
+    color: #d4a017;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Sections */
+section {
+    background-color: #fffaf0;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 12px;
+    border-top: 5px solid #b7410e;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Section headings */
+h2 {
+    color: #5b2c06;
+    border-bottom: 3px solid #d4a017;
+    padding-bottom: 8px;
+}
+
+/* Articles */
+article {
+    background-color: #f5e6c8;
+    padding: 18px;
+    margin: 18px 0;
+    border-left: 5px solid #b7410e;
+    border-radius: 8px;
+}
+
+/* Article headings */
+article h3 {
+    color: #7a2700;
+}
+
+/* Footer */
+footer {
+    background-color: #5b2c06;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Contact form */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Form labels */
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #5b2c06;
+}
+
+/* Text boxes */
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #d4a017;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* When the user clicks inside a box */
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #b7410e;
+}
+
+/* Send button */
+form button {
+    background-color: #5b2c06;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Button hover */
+form button:hover {
+    background-color: #b7410e;
+}
