@@ -187,3 +187,7 @@ form button:hover {
         height: 130px;
     }
 }
+nav a:focus {
+    outline: 3px solid #d4a017;
+    outline-offset: 3px;
+}
